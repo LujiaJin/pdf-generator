@@ -1,0 +1,1 @@
+__pycache__/\n*.pyc\n*.pyo\n*.pyd\n.Python\nenv/\nvenv/\n.venv/\n.dist/\nbuild/\n*.egg-info/\n.pytest_cache/\n.coverage\nhtmlcov/\n.DS_Store\n.vscode/\n.idea/
