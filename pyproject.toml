@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdf-generator"
+version = "1.0.0"
+description = "Professional Chinese Markdown-to-PDF generator"
+authors = [{name = "PDF Generator Team", email = ""}]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Markup :: Markdown",
+    "Topic :: Printing",
+]
+keywords = ["pdf", "markdown", "chinese", "reportlab", "document"]
+
+[project.urls]
+Homepage = "https://github.com/your-username/pdf-generator"
+Repository = "https://github.com/your-username/pdf-generator"
+
+[project.dependencies]
+reportlab = ">=4.2.0"
+markdown = ">=3.6"
+PyPDF2 = ">=3.0.0"
+typing-extensions = ">=4.0.0"
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-cov"]
+
+[project.entry-points."console_scripts"]
+pdf-generator = "pdf_generator.cli:main"
+
+[tool.setuptools_scm]
