@@ -1,5 +1,7 @@
 # pdf-generator
 
+<sub>💡 **Tip**: If you find this repository's structure or content difficult to understand, visit [deepwiki](https://deepwiki.com/LujiaJin/pdf-generator) for a comprehensive detailed explanation.</sub>
+
 [![Build Status](https://img.shields.io/github/actions/workflow/status/LujiaJin/pdf-generator/test.yml?branch=main&logo=github)](https://github.com/LujiaJin/pdf-generator/actions/workflows/test.yml)
 [![PyPI Version](https://img.shields.io/pypi/v/pdf-generator?logo=pypi)](https://pypi.org/project/pdf-generator/)
 [![Python Version](https://img.shields.io/pypi/pyversions/pdf-generator?logo=python)](https://pypi.org/project/pdf-generator/)
